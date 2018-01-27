@@ -5,6 +5,11 @@
   <div class="footer-right">
     <nav>
       <ul>
+        <% if (theme.customize.social_links) { %>
+          <% for(var i in theme.customize.social_links) { %>
+            <li><a target="_blank" href="<%- url_for(theme.customize.social_links[i]) %>"><i class="fa fa-<%= i %>"></i></a></li>
+          <% } %>
+        <% } %>
         <% for (var i in theme.nav) { %> 
           <li><a href="<%- url_for(theme.nav[i]) %>"><%= i %></a></li>
         <% } %>

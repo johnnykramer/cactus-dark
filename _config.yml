@@ -1,7 +1,6 @@
 nav:
   Home: /
   CV: /cv
-  Projects: /projects
   Blog: /blog
 
 projects_url: http://github.com/johnnykramer
@@ -28,12 +27,12 @@ customize:
     social_links:
         telegram: https://t.me/johnnykramer
         github: http://github.com/johnnykramer
-        linkedin: https://linkedin.com/in/johnnykramer/
+        linkedin: https://linkedin.com/in/johnnykramer
         facebook: https://facebook.com/kuzmychev
         vk: https://vk.com/fear_me
         envelope: mailto:kuzmychev@gmail.com
     show_all_posts: false
-    post_count: 5
+    post_count: 3
     highlight: rainbow
 
 # RSS
