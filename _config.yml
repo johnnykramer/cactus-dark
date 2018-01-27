@@ -1,8 +1,9 @@
 nav:
   Home: /
-  About: /about/
-  Projects: /projects/
-  Blog: /blog/
+  About: /about
+  CV: /cv
+  Projects: /projects
+  Blog: /blog
 
 projects_url: http://github.com/johnnykramer
 
